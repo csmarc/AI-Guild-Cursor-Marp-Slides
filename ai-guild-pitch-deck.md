@@ -138,8 +138,6 @@ style: |
 
 # Pitch Perfect
 
-<img src="./assets/cursor-logo.png" alt="Cursor Logo" style="margin: 20px auto; max-width: 200px;" />
-
 <p class="tagline">Building Hackathon-Winning<br>Pitch Decks with AI</p>
 
 <p>
