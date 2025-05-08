@@ -556,7 +556,7 @@ flowchart TD
 
 ### Resources We'll Provide
 
-- **GitHub repository** with all templates
+- **[GitHub repository](https://github.com/csmarc/AI-Guild-Cursor-Marp-Slides)** with all templates
 - **AI prompt cheat sheet** for pitch decks
 - **Marp theme template** with Solana styling
 - **Sample Mermaid diagrams** for common use cases
@@ -581,7 +581,7 @@ flowchart TD
 </div>
 
 <div class="contact-info">
-Contact: <span class="email">info@gigentic.ai</span>
+Contact: <span class="email">info@gigentic.ai</span> | Repo: <a href="https://github.com/csmarc/AI-Guild-Cursor-Marp-Slides" class="email">github.com/csmarc/AI-Guild-Cursor-Marp-Slides</a>
 </div>
 
 <!-- Speaker Notes:
