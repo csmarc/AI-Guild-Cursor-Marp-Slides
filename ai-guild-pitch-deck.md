@@ -522,11 +522,11 @@ flowchart TD
 <div class="mermaid">
 flowchart TD
     A[Start] --> B{Decision}
-    B -->|Yes| C[Action 1]
-    B -->|No| D[Action 2]
+    B -->|"1) Yes"| C[Action 1]
+    B -->|"2) No"| D[Action 2]
     C --> E[Result]
     D --> E
-    style A fill:#9945FF,color:#FFF
+    style A fill:#E06616,color:#FFF
     style E fill:#14F195,color:#000
 </div>
 
