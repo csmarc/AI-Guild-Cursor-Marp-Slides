@@ -1,6 +1,6 @@
 # AI-Powered Pitch Deck Workflow with Cursor and Marp
 
-Project setup and template resources for the AI Guild session to create stunning pitch decks using Cursor and Marp.
+Project setup and template resources for the AI Guild session to create stunning pitch decks using Cursor and [Marp](https://marp.app/).
 
 ## Marp CLI with Mermaid Diagram Support
 
@@ -15,7 +15,7 @@ npm install -g @marp-team/marp-cli
 2. Run the presentation with watch mode:
 
 ```bash
-marp -w --html project-management/presentation/escrow-stakeholder-presentation.md
+marp -w --html ai-guild-pitch-deck.md
 ```
 
 This will start a local server that automatically refreshes when you make changes to your presentation.
