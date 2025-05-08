@@ -148,6 +148,13 @@ style: |
 
 </div>
 
+<!-- Speaker Notes:
+- Welcome everyone to our AI Guild session
+- Today we're focusing on how to create winning pitch decks using AI tools
+- This method helped us create impressive presentations quickly for hackathons
+- We'll share our exact workflow using Cursor AI and Marp
+-->
+
 ---
 
 # The Hackathon Presentation Problem
@@ -181,6 +188,15 @@ flowchart TD
 
 </div>
 </div>
+
+<!-- Speaker Notes:
+- We've all been in this situation - great project, terrible presentation
+- Most developers would rather code than create slides
+- Many technical teams lack design expertise
+- Presentations are often left until the last minute
+- But judges can only evaluate what they see and understand
+- A poor presentation can sink an otherwise excellent project
+-->
 
 ---
 
@@ -222,6 +238,14 @@ flowchart TD
 <div class="feature-box">
 <strong>Built for Builders:</strong> Designed for developers who want professional results without sacrificing coding time
 </div>
+
+<!-- Speaker Notes:
+- Brief introduction about us and our experience
+- Marton: Technical background, PhD, extensive development experience
+- Alex: Business background, fundraising experience, presentation skills
+- We're actively using this workflow for our current hackathon projects
+- We designed this system because we faced these challenges ourselves
+-->
 
 ---
 
@@ -265,6 +289,15 @@ flowchart LR
 <div class="feature-box">
 <strong>Key Benefit:</strong> Create professional presentations while staying in your development environment
 </div>
+
+<!-- Speaker Notes:
+- Our solution combines two powerful tools: Cursor AI and Marp
+- The flowchart shows how we go from project docs to final presentation
+- Cursor AI helps generate content based on your project materials
+- Marp converts markdown to beautiful presentations
+- The entire workflow stays within environments developers are comfortable with
+- No need to switch to PowerPoint or design tools
+-->
 
 ---
 
@@ -315,6 +348,17 @@ Content for first slide
 <strong>Developer-First:</strong> Marp treats presentations as code - write, version, collaborate, and deploy
 </div>
 
+<!-- Speaker Notes:
+- Marp stands for Markdown Presentation Ecosystem
+- It allows you to create presentations using only markdown
+- Perfect for developers who are already comfortable with markdown
+- The right side shows a simple example of Marp syntax
+- Configuration happens at the top in the front matter
+- Each slide is separated by three dashes
+- Content is formatted using standard markdown syntax
+- Marp has great VS Code integration with live preview
+-->
+
 ---
 
 # Technical Implementation
@@ -336,6 +380,15 @@ graph LR
 <div class="feature-box">
 <strong>Full Environment:</strong> Complete setup in under 15 minutes, even for newcomers
 </div>
+
+<!-- Speaker Notes:
+- This diagram shows the complete implementation flow
+- Start by setting up Cursor IDE and VS Code with the Marp extension
+- Create a simple project structure for your presentation assets
+- The entire setup takes less than 15 minutes
+- Mermaid diagrams like this one are integrated directly into Marp
+- This makes it easy to create technical diagrams without external tools
+-->
 
 ---
 
@@ -381,6 +434,16 @@ Final Optimization                :p5, after p4, 10m
 </div>
 </div>
 
+<!-- Speaker Notes:
+- Our complete workflow takes about 60 minutes from start to finish
+- We begin with project setup and using AI to generate draft content
+- Then implement in Marp and add visual enhancements
+- Left side shows our AI prompt strategy - start broad, then get specific
+- Right side shows Marp implementation tips for best results
+- Notice how we use Gantt charts directly in Marp for timeline visualization
+- This entire presentation was created using exactly this workflow
+-->
+
 ---
 
 # Advantages of Our Approach
@@ -417,6 +480,15 @@ Final Optimization                :p5, after p4, 10m
 <div class="feature-box">
 <strong>Quality Improvement:</strong> Achieve professional design standards without design expertise
 </div>
+
+<!-- Speaker Notes:
+- Our approach offers significant advantages for both individual developers and teams
+- For developers: stay in familiar environment, use version control, focus on building
+- For teams: consistent branding, rapid updates, professional results
+- We've found this method saves about 75% of the time normally spent on presentations
+- Quality improvement is substantial - presentations look professional without design skills
+- This directly addresses the hackathon presentation challenges we identified earlier
+-->
 
 ---
 
@@ -465,6 +537,16 @@ flowchart TD
 <strong>AI-Generated Diagrams:</strong> Use Cursor to create Mermaid diagrams from project descriptions
 </div>
 
+<!-- Speaker Notes:
+- Let's look at how Mermaid diagrams work in practice
+- Left side shows the actual markdown syntax used to create the diagram
+- Right side shows the rendered result
+- You can create flowcharts, sequence diagrams, Gantt charts, and more
+- Mermaid syntax is simple and declarative
+- Cursor AI can help generate these diagrams from project descriptions
+- This is especially powerful for architecture and workflow diagrams
+-->
+
 ---
 
 # Practical Next Steps
@@ -501,3 +583,13 @@ flowchart TD
 <div class="contact-info">
 Contact: <span class="email">info@gigentic.ai</span>
 </div>
+
+<!-- Speaker Notes:
+- We're providing several resources to help you get started
+- GitHub repo with templates, cheat sheets, and sample diagrams
+- Your action items are simple: install tools, clone repo, start creating
+- Remember our philosophy: Build Projects, Not Presentations
+- Let the tools do the heavy lifting so you can focus on building
+- Feel free to reach out with questions at the email address shown
+- Thank you all for attending today's session!
+-->
