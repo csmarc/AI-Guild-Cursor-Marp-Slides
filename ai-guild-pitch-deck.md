@@ -268,29 +268,59 @@ flowchart LR
 
 ---
 
-# Technical Implementation
+# What is Marp?
 
 <div class="columns">
 <div>
 
-### Setup Process
+### Markdown Presentation Ecosystem
 
-- **Install Cursor IDE & VS Code with Marp**
-- **Create folder structure:**
-  ```
-  project-pitch/
-  ├── docs/ (PRD, user stories)
-  ├── assets/ (images, diagrams)
-  ├── templates/ (prompt templates)
-  └── diagrams/ (mermaid markdown)
-  ```
-- **Add Mermaid support** for technical diagrams
+- **Marp = Markdown Presentation Ecosystem**
+- Write slides in Markdown, render as presentations
+- VS Code extension with live preview
+- CLI for automation and CI/CD integration
+- Built for developers who prefer text over GUI
 
 </div>
 <div>
 
+### How Marp Works
+
+```markdown
+---
+marp: true
+theme: default
+---
+
+# Slide 1 Title
+
+Content for first slide
+
+---
+
+# Slide 2 Title
+
+- Bullet points
+- More content
+```
+
+- **Front matter** for configuration
+- **Triple dash (---)** separates slides
+- **Standard Markdown** for content formatting
+
+</div>
+</div>
+
+<div class="feature-box">
+<strong>Developer-First:</strong> Marp treats presentations as code - write, version, collaborate, and deploy
+</div>
+
+---
+
+# Technical Implementation
+
 <div class="mermaid">
-graph TD
+graph LR
     A[Setup Environment] --> B[Install Cursor]
     A --> C[Install VS Code + Marp]
     B --> D[Create Project Structure]
@@ -301,9 +331,6 @@ graph TD
     style B fill:#9945FF,stroke:#9945FF,color:#FFFFFF
     style C fill:#9945FF,stroke:#9945FF,color:#FFFFFF
     style F fill:#9945FF,stroke:#9945FF,color:#FFFFFF
-</div>
-
-</div>
 </div>
 
 <div class="feature-box">
